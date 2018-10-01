@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <LinearLayout
+        android:layout_marginTop="?android:actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created By"
+            android:fontFamily="sans-serif-light"/>
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gurkaran Sahni"
+            android:fontFamily="sans-serif-light"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app uses"
+            android:fontFamily="sans-serif-light"/>
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Books API"
+            android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+</FrameLayout>
